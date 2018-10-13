@@ -3,7 +3,6 @@ package ua.edu.ukma.e_oss.team4.entity;
 import lombok.*;
 
 import javax.persistence.Entity;
-import java.sql.Date;
 
 @Entity
 @Getter
@@ -11,11 +10,11 @@ import java.sql.Date;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-public class User {
 
+public class Ks {
     private int id;
-    private String name;
-    private String firstName;
-    private String lastName;
-    private Date dateOfBirth;
+    private int year;
+    private int userId;
+    private int isHead;
+
 }

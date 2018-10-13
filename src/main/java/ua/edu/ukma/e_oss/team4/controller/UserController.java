@@ -19,7 +19,4 @@ public class UserController {
         mv.addObject("user", u.toString());
         return mv;
     }
-
-
-
 }
