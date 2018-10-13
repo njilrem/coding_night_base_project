@@ -3,7 +3,6 @@ package ua.edu.ukma.e_oss.team4.entity;
 import lombok.*;
 
 import javax.persistence.Entity;
-import java.sql.Date;
 
 @Entity
 @Getter
@@ -11,11 +10,12 @@ import java.sql.Date;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-public class User {
-
+public class Vote {
     private int id;
-    private String name;
-    private String firstName;
-    private String lastName;
-    private Date dateOfBirth;
+    private int userToVariantId;
+    private int variantId;
+    private String comment;
+    //TODO user to variant id
+    //TODO variant od
+
 }
