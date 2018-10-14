@@ -20,7 +20,7 @@ function timer(){
 
     if(end){
         clearInterval(intervalID);
-        window.location.href = "../html/conf.html";
+        window.location.href = "../html/live_conference.html";
         alert("Таймер сработал!");
         add_questions_for_vote();
 

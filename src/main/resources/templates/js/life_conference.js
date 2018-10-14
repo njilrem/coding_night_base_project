@@ -18,13 +18,17 @@ function delete_elem() {
     event.stopImmediatePropagation();
     var elem = document.getElementById("vote-panel-show");
     console.log(event.target.textContent); //Виводить в консоль "За" або "Проти" або "Утримався"
+    console.log(elem.parentNode);
+    elem.parentNode.className = "question-answered";
     elem.parentNode.removeChild(elem);
+    // document.getElementById("question").className = "question-answered";
 }
 
 function add_questions_for_vote() {
-    for (var i = 6; i < 10; i++) {
+    for (var i = 0; i < 10; i++) {
         var question = document.createElement("li");
         question.id = 'question' + i;
+        // question.classList.add("list-group-item");
         question.innerHTML = '' +
             '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ducimus consectetur culpa deserunt error, beatae esse id molestiae mollitia commodi dignissimos distinctio unde amet fuga doloribus corrupti tempore velit sint?\n' +
             '          <div id="vote-panel' + i + '" class="vote-panel">\n' +

@@ -1,0 +1,21 @@
+div .questions-list {
+  padding-top: 50px;
+}
+
+ol #questions{
+  list-style-type: circle;
+  padding-top: 50px;
+  margin: 50px;
+}
+
+.vote-panel {
+  display: none;
+}
+
+.vote-panel-show {
+  display: block;
+}
+
+.question-answered {
+  text-decoration: line-through;
+}
