@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/inactive.css" rel="stylesheet">
+    <script src="../js/timer.js"></script>
+    <script src="../js/inactive.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+</head>
+<body>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <p class="navbar-brand" href="#">Студентська колегія НАУКМА</a>
+        </div>
+    </div>
+</nav>
+<div class="conteiner">
+    <div class="row content">
+        <div class="col-2 sidenav">
+            <h3><a href="inactive.html">Поточна конференція</a></h3>
+            <h3><a href="active.html">Майбутня конференція</a></h3>
+            <h3><a href="#">Історія конференцій</a></h3>
+        </div>
+
+
+        <div class="col-10">
+
+            <div class="row justify-content-center align-items-center">
+                <div class="col-2"><h1>Назва</h1></div>
+                <div class="col-2">23.11.2018</div>
+
+            </div>
+
+            <div id="timer">
+                <div id="hour">0</div>&nbsp;:
+                <div id="minute">1</div>&nbsp;:
+                <div id="second">1</div>
+            </div>
+
+            <div class="center">
+                <h3>Питання конференції:</h3>
+
+
+                <div class="questions-list">
+                    <ol id="questions">
+
+                    </ol>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</div>
+
+</body>
+</html>

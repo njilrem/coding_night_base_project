@@ -1,0 +1,40 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:46px;
+    color: cornflowerblue;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:24px;
+    color: darkgrey;
+}
+nav{
+    background: cornflowerblue;;
+}
+nav p{
+    color: white;
+}
+
+.conteiner{
+    margin-top:20px;
+}
+
+.center{
+    margin: auto;
+    width: 40%;
+}
+
+
+.row.content {height: 1000px}
+        .sidenav {
+            padding-top: 50px;
+            padding-right: 50px;
+            padding-left: 50px;
+            padding-bottom: 50px;
+            background-color: #f1f1f1;
+            height: 100%;
+        }
+        .conteiner {
+            column-rule-width: medium;
+            line-height: 100%;
+        }
